@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kontaktkarte mit Person + Sync-Badge. Alles liegt in der 66dp-Safe-Zone (Kreis r=33 um 54,54). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,28h18a10,10 0 0 1 10,10v18a10,10 0 0 1 -10,10h-18a10,10 0 0 1 -10,-10v-18a10,10 0 0 1 10,-10z" />
+    <group android:name="person">
+        <clip-path android:pathData="M38,28h18a10,10 0 0 1 10,10v18a10,10 0 0 1 -10,10h-18a10,10 0 0 1 -10,-10v-18a10,10 0 0 1 10,-10z" />
+        <path
+            android:fillColor="@color/ic_launcher_background"
+            android:pathData="M39.5,42a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0z" />
+        <path
+            android:fillColor="@color/ic_launcher_background"
+            android:pathData="M32,68C32,58.5 38.5,53 47,53C55.5,53 62,58.5 62,68z" />
+    </group>
+    <!-- Ring in Hintergrundfarbe trennt das Badge von der Karte. -->
+    <path
+        android:fillColor="@color/ic_launcher_background"
+        android:pathData="M48,65a17,17 0 1,0 34,0a17,17 0 1,0 -34,0z" />
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M51,65a14,14 0 1,0 28,0a14,14 0 1,0 -28,0z" />
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="56"
+        android:translateY="56">
+        <path
+            android:fillColor="#00594F"
+            android:pathData="M12,4V1L8,5l4,4V6c3.31,0 6,2.69 6,6 0,1.01 -0.25,1.97 -0.7,2.8l1.46,1.46C19.54,15.03 20,13.57 20,12c0,-4.42 -3.58,-8 -8,-8zM12,18c-3.31,0 -6,-2.69 -6,-6 0,-1.01 0.25,-1.97 0.7,-2.8L5.24,7.74C4.46,8.97 4,10.43 4,12c0,4.42 3.58,8 8,8v3l4,-4 -4,-4v3z" />
+    </group>
+</vector>

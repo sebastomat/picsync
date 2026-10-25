@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="18 18 72 72" width="512" height="512">
+<defs><clipPath id="mask"><rect x="18" y="18" width="72" height="72" rx="26"/></clipPath></defs>
+<g clip-path="url(#mask)">
+  <rect width="108" height="108" fill="#00897B"/>
+  <defs><clipPath id="card"><path d="M38,28h18a10,10 0 0 1 10,10v18a10,10 0 0 1 -10,10h-18a10,10 0 0 1 -10,-10v-18a10,10 0 0 1 10,-10z"/></clipPath></defs>
+  <path d="M38,28h18a10,10 0 0 1 10,10v18a10,10 0 0 1 -10,10h-18a10,10 0 0 1 -10,-10v-18a10,10 0 0 1 10,-10z" fill="#FFFFFF"/>
+  <g clip-path="url(#card)" fill="#00897B">
+    <path d="M39.5,42a7.5,7.5 0 1,0 15,0a7.5,7.5 0 1,0 -15,0z"/>
+    <path d="M32,68C32,58.5 38.5,53 47,53C55.5,53 62,58.5 62,68z"/>
+  </g>
+  <circle cx="65" cy="65" r="17" fill="#00897B"/>
+  <circle cx="65" cy="65" r="14" fill="#FFD54F"/>
+  <g transform="translate(56,56) scale(0.75)" fill="#00594F">
+    <path d="M12,4V1L8,5l4,4V6c3.31,0 6,2.69 6,6 0,1.01 -0.25,1.97 -0.7,2.8l1.46,1.46C19.54,15.03 20,13.57 20,12c0,-4.42 -3.58,-8 -8,-8zM12,18c-3.31,0 -6,-2.69 -6,-6 0,-1.01 0.25,-1.97 0.7,-2.8L5.24,7.74C4.46,8.97 4,10.43 4,12c0,4.42 3.58,8 8,8v3l4,-4 -4,-4v3z"/>
+  </g>
+</g>
+</svg>
