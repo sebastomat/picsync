@@ -17,6 +17,7 @@
 - [Was macht die App?](#was-macht-die-app)
 - [Wie funktioniert das ohne Root?](#wie-funktioniert-das-ohne-root)
 - [Funktionen](#funktionen)
+- [Download](#download)
 - [Bauen](#bauen)
 - [Installieren](#installieren)
 - [Benutzung](#benutzung)
@@ -58,6 +59,12 @@ Chatverläufe lädt PicSync nicht herunter, die Verlaufs-Synchronisation ist abg
 - 🛡️ **Schonend:** Eigene Kontaktfotos werden standardmäßig nicht überschrieben, Anfragen an WhatsApp sind gedrosselt
 - 🔔 **Vordergrund-Dienst:** Die Verbindung bleibt bestehen, während du in WhatsApp den Code eingibst. Der Code steht auch in der Benachrichtigung.
 - 🎨 **Adaptives Icon** inklusive Themed-Icon-Variante für Android 13+
+
+## Download
+
+Ein fertiges APK gibt es unter **[Releases](https://github.com/sebastomat/picsync/releases/latest)**. Es läuft auf Android 8.0 oder neuer, auf arm64-Geräten.
+
+Das APK ist mit einem Entwicklungsschlüssel signiert, nicht mit einem Store-Zertifikat. Android warnt deshalb bei der Installation („unbekannte Quelle“, ggf. Play Protect). Wer dem nicht vertraut, baut die App selbst (siehe unten).
 
 ## Bauen
 
